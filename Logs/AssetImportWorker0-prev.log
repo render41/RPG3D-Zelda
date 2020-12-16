@@ -1,0 +1,527 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 8095 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gabri/Documents/Projetos/Unity/3d/RPG3D-Zelda
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50674
+Successfully changed project path to: C:/Users/gabri/Documents/Projetos/Unity/3d/RPG3D-Zelda
+C:/Users/gabri/Documents/Projetos/Unity/3d/RPG3D-Zelda
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 77.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gabri/Documents/Projetos/Unity/3d/RPG3D-Zelda/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 820M (ID=0x1140)
+    Vendor:   
+    VRAM:     2000 MB
+    Driver:   23.21.13.8934
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002930 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.392 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000995 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.577 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1336 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1777.
+Total: 4.733500 ms (FindLiveObjects: 0.424200 ms CreateObjectMapping: 0.354700 ms MarkObjects: 3.821900 ms  DeleteObjects: 0.129500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/RPGHero
+  artifactKey: Guid(be18de5a13d12a543b311298037a652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero using Guid(be18de5a13d12a543b311298037a652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd42e29fc5b3bdb9e44c87c4a714f9e1') in 0.093617 seconds
+  Import took 0.098604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008161 seconds.
+  path: Assets/RPGHero/Prefabs/RPGHeroPolyart.prefab
+  artifactKey: Guid(c647a6e9ba715004ebbf4dc6d7bd1e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Prefabs/RPGHeroPolyart.prefab using Guid(c647a6e9ba715004ebbf4dc6d7bd1e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebab6d3f2b1263c8dcca92f797292f9') in 0.605934 seconds
+  Import took 0.611926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/RPGHero/PromotionImage.jpg
+  artifactKey: Guid(5cb6c6af00f7e294baeda13ac52fb671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/PromotionImage.jpg using Guid(5cb6c6af00f7e294baeda13ac52fb671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f790543fb3b99e279010b2d10964e6') in 0.305123 seconds
+  Import took 0.309292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/RPGHero/Prefabs
+  artifactKey: Guid(a2a0b3e9614ce9644bcf0df7f50794ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Prefabs using Guid(a2a0b3e9614ce9644bcf0df7f50794ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55173f66205606eb3bbc2a426c6e4b6b') in 0.011302 seconds
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.865813 seconds.
+  path: Assets/RPGHero/Meshes/NewFreeRPGHero.fbx
+  artifactKey: Guid(9ce6002518e821e43b4f97c76700fbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/NewFreeRPGHero.fbx using Guid(9ce6002518e821e43b4f97c76700fbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba80963889d8836bb4bd6697e5e355c') in 0.423915 seconds
+  Import took 0.427813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/RPGHero/Meshes/NewFreeRPGHeroPolyart.fbx
+  artifactKey: Guid(e4aa31f274820b94eb0d0b764e0f383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/NewFreeRPGHeroPolyart.fbx using Guid(e4aa31f274820b94eb0d0b764e0f383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94ac3f3fb72bd10ccd8f8af79e0e7a1') in 0.094410 seconds
+  Import took 0.099192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/RPGHero/Meshes/Shield.fbx
+  artifactKey: Guid(9d34b073abce58249a1f664619a13aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/Shield.fbx using Guid(9d34b073abce58249a1f664619a13aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f8e382e1ad3df29030fa265eee01f8') in 0.033840 seconds
+  Import took 0.040237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/RPGHero/Meshes/Stage.fbx
+  artifactKey: Guid(433ba552641724b44889f4b106bec3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/Stage.fbx using Guid(433ba552641724b44889f4b106bec3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14466d770bdd00581eba85b7109bcc2') in 0.057431 seconds
+  Import took 0.061638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/RPGHero/Meshes/Sword.fbx
+  artifactKey: Guid(64564c9f5e409974297b87494cbe4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/Sword.fbx using Guid(64564c9f5e409974297b87494cbe4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e9fec3f8d29127cf23decec6697706') in 0.038486 seconds
+  Import took 0.043245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/RPGHero/Meshes/PolyartShield.fbx
+  artifactKey: Guid(82d123ce4a1a7824bae34da0dd9e13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/PolyartShield.fbx using Guid(82d123ce4a1a7824bae34da0dd9e13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f237dec113718436ee55e5ecbbcb836e') in 0.036284 seconds
+  Import took 0.042054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/RPGHero/Meshes/PolyartSword.fbx
+  artifactKey: Guid(8e748ab8b2b891145b67425cad73aebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Meshes/PolyartSword.fbx using Guid(8e748ab8b2b891145b67425cad73aebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb76afb47597972fe2bfb559781e8633') in 0.035051 seconds
+  Import took 0.038815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.009132 seconds.
+  path: Assets/RPGHero/Materials/Ground.mat
+  artifactKey: Guid(2d8921c2c5deb9449918f9b1473e8b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Materials/Ground.mat using Guid(2d8921c2c5deb9449918f9b1473e8b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc143e9a256b5ed9ce290ed6cb012b8') in 0.061672 seconds
+  Import took 0.066594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/RPGHero/Materials/PBR.mat
+  artifactKey: Guid(c12dcb13975c4f046aeb892393f83184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Materials/PBR.mat using Guid(c12dcb13975c4f046aeb892393f83184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093ce9e62ab0008915cff34300a3bcb4') in 0.958852 seconds
+  Import took 0.963345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/RPGHero/Materials/PolyArt.mat
+  artifactKey: Guid(a507d7782a15a784287355f31af5c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Materials/PolyArt.mat using Guid(a507d7782a15a784287355f31af5c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2e89d1401f47daa5d4e5df7a24c09e') in 0.029137 seconds
+  Import took 0.032243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/RPGHero/Materials/HandPainted.mat
+  artifactKey: Guid(6acc71550c566ce42a8bedab0c3b42af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Materials/HandPainted.mat using Guid(6acc71550c566ce42a8bedab0c3b42af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e075cdabf5a98697c462a733bafc67a') in 0.357530 seconds
+  Import took 0.361844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.345931 seconds.
+  path: Assets/RPGHero/SRP/FreeRPGHeroesHD.zip
+  artifactKey: Guid(b9840486e533dfc4a976192239e48783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/SRP/FreeRPGHeroesHD.zip using Guid(b9840486e533dfc4a976192239e48783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b415341688cd5bb60f4da09136b75b') in 0.023337 seconds
+  Import took 0.029024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.240983 seconds.
+  path: Assets/RPGHero/SRP/FreeRPGHeroesLW.zip
+  artifactKey: Guid(08e5378003a93e442af2c2ca9ee9de41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/SRP/FreeRPGHeroesLW.zip using Guid(08e5378003a93e442af2c2ca9ee9de41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798cfc9754d26604dc5692f6b7168b76') in 0.011627 seconds
+  Import took 0.016223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.361093 seconds.
+  path: Assets/RPGHero/SRP
+  artifactKey: Guid(a02bc95b4839d724d8f024f05920509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/SRP using Guid(a02bc95b4839d724d8f024f05920509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd450b042ef3d3c5b5877a45c97eb44a') in 0.012360 seconds
+  Import took 0.016337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.845938 seconds.
+  path: Assets/RPGHero/Textures
+  artifactKey: Guid(96bfcd2d828054f40aea2e9ca3dcc1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures using Guid(96bfcd2d828054f40aea2e9ca3dcc1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d95f79cfa040321b2558e42a4baed9c') in 0.013802 seconds
+  Import took 0.020486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372006 seconds.
+  path: Assets/RPGHero/Textures/HandPaintedTexture.png
+  artifactKey: Guid(56cd14cc867c3f247ad4dab4f1e47413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures/HandPaintedTexture.png using Guid(56cd14cc867c3f247ad4dab4f1e47413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27558f8d85a34c0f35c5c8a9d095a302') in 0.073947 seconds
+  Import took 0.080660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/RPGHero/Textures/PolyArtTexture.png
+  artifactKey: Guid(6c077c7c0e8b52640992a79f449cbdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures/PolyArtTexture.png using Guid(6c077c7c0e8b52640992a79f449cbdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe3a82e58997e2c37d908621f0278eb') in 0.028618 seconds
+  Import took 0.031701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/RPGHero/Textures/PBR_Albedo.png
+  artifactKey: Guid(802701e4ffdf6b44890959e9fc44b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures/PBR_Albedo.png using Guid(802701e4ffdf6b44890959e9fc44b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71049fefedd11c5d1b889cb04ebb7d19') in 0.060678 seconds
+  Import took 0.064664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/RPGHero/Textures/PBR_MS.png
+  artifactKey: Guid(8f230da24ef262747baee27cd5ef20ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures/PBR_MS.png using Guid(8f230da24ef262747baee27cd5ef20ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d05c72f90eacce99ea7eb017bcebd5') in 0.034146 seconds
+  Import took 0.038205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/RPGHero/Textures/PBR_NM.png
+  artifactKey: Guid(d7c79101febab9d40a01bdc71adc4492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures/PBR_NM.png using Guid(d7c79101febab9d40a01bdc71adc4492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7e957dfd8d6160f87f15cd7282168d') in 0.046940 seconds
+  Import took 0.050721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/RPGHero/Textures/PBR_AO.png
+  artifactKey: Guid(0ad2676e72931c9428fea50394d358f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGHero/Textures/PBR_AO.png using Guid(0ad2676e72931c9428fea50394d358f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242a75a10db99bf08533ad39fcee6238') in 0.044866 seconds
+  Import took 0.048606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.654797 seconds.
+  path: Assets/Nicrom/PolyPacks
+  artifactKey: Guid(a3009f58b5ab23843a6419126c0f415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks using Guid(a3009f58b5ab23843a6419126c0f415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ff43539146ef81dfdd5e0955bd2807') in 0.017089 seconds
+  Import took 0.021846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596804 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind
+  artifactKey: Guid(4295de965b4f268499eccba762c3fcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind using Guid(4295de965b4f268499eccba762c3fcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cccccada01a1fa7dc1b3b34087ac22') in 0.016950 seconds
+  Import took 0.020558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.919555 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Documentation
+  artifactKey: Guid(30f2cedb019932442afa39db36710e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Documentation using Guid(30f2cedb019932442afa39db36710e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2dfc647413f495188f7397b20320e0') in 0.014614 seconds
+  Import took 0.022253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.248427 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Shaders
+  artifactKey: Guid(6fcfeb72b5b3ca14693102852b6932c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Shaders using Guid(6fcfeb72b5b3ca14693102852b6932c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337b278567eb6068e6b6e0a552398788') in 0.018377 seconds
+  Import took 0.026169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.264570 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Shaders/ASE
+  artifactKey: Guid(89752cc2a2b32f248b1d97702caaf210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Shaders/ASE using Guid(89752cc2a2b32f248b1d97702caaf210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17b541a23dac9f52a0e6286e89a2f69') in 0.017279 seconds
+  Import took 0.021368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.633859 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Promotion.jpg
+  artifactKey: Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Promotion.jpg using Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7972178496e16e7c9ee7a5d4dbc3040') in 0.125393 seconds
+  Import took 0.131121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.068683 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures
+  artifactKey: Guid(6840729219228ab4880b45e06d1e3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures using Guid(6840729219228ab4880b45e06d1e3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6be36c3ecd89c3bfb497a63dd8b4ad') in 0.014650 seconds
+  Import took 0.018643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086442 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png
+  artifactKey: Guid(0f625c9ed25ed7c479d59c9a7e72177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png using Guid(0f625c9ed25ed7c479d59c9a7e72177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e0aacaf0a0ddfe35928813d58b3124') in 0.100831 seconds
+  Import took 0.104989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAO.png
+  artifactKey: Guid(a469451b6efe62649a2ad1eaf645e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAO.png using Guid(a469451b6efe62649a2ad1eaf645e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c013b5cf200bbd82a3aa5902dd3ff') in 0.169709 seconds
+  Import took 0.174800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PolyartDefaultTex.png
+  artifactKey: Guid(19bb4fe4d3f7dc640907e64ce8d1865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PolyartDefaultTex.png using Guid(19bb4fe4d3f7dc640907e64ce8d1865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f83e63d11fa897ac12d4c8f59b42333') in 0.104257 seconds
+  Import took 0.109000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAO.png
+  artifactKey: Guid(ea614ba314598d14ebe9e9cdff6a47cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAO.png using Guid(ea614ba314598d14ebe9e9cdff6a47cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae818ad95628c493e2a916ba7812085f') in 0.062377 seconds
+  Import took 0.065574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png
+  artifactKey: Guid(86f7e285a9594474785378ee66ed8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png using Guid(86f7e285a9594474785378ee66ed8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8aafde756c35b4599e435ac620c618') in 0.048563 seconds
+  Import took 0.051754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellMetalicSmoothness.png
+  artifactKey: Guid(7976e834fdd8a3a43843322f15ca5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellMetalicSmoothness.png using Guid(7976e834fdd8a3a43843322f15ca5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4605027db01b116273e1dccad1badb35') in 0.061195 seconds
+  Import took 0.065423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeNormal.png
+  artifactKey: Guid(18abd5f4e9c11924a95611d5a0813704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeNormal.png using Guid(18abd5f4e9c11924a95611d5a0813704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fea3f360319205bc45811491c2bf936') in 0.060462 seconds
+  Import took 0.063986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png
+  artifactKey: Guid(8d1af929e130869459814fc6a74e0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png using Guid(8d1af929e130869459814fc6a74e0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4653f85e4d62c941f860c00a45b944') in 0.052818 seconds
+  Import took 0.056197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeMetallicSmoothness.png
+  artifactKey: Guid(55ceae9efe5bd70448ee58c1d30bb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeMetallicSmoothness.png using Guid(55ceae9efe5bd70448ee58c1d30bb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9665b94d899db088ae3825fa8f6b30') in 0.060424 seconds
+  Import took 0.064713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012462 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs
+  artifactKey: Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs using Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f427ace7fc578d2190ebf7aad2d0b26c') in 0.006466 seconds
+  Import took 0.011123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116019 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab
+  artifactKey: Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab using Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb7a6209dd60365674833687d446285') in 0.050206 seconds
+  Import took 0.055878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab
+  artifactKey: Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab using Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a61403af9d3f78e206d5fd345003de2') in 0.093189 seconds
+  Import took 0.097758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab
+  artifactKey: Guid(55776efecb0cd134ea5f418c2f97a705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab using Guid(55776efecb0cd134ea5f418c2f97a705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1f4d8e5e4c71c01072eebbfbaef0dc') in 0.057306 seconds
+  Import took 0.061490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab
+  artifactKey: Guid(3aec22b5d3f3c2947bb81040b56e5f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab using Guid(3aec22b5d3f3c2947bb81040b56e5f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883e0c19eaaa136e973325db02b31cf6') in 0.065451 seconds
+  Import took 0.070084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.313347 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx
+  artifactKey: Guid(1f499d0eded7a4245b0c36149a43da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx using Guid(1f499d0eded7a4245b0c36149a43da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e34358f9e9c4e10d05765066635dae') in 0.043015 seconds
+  Import took 0.046934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx
+  artifactKey: Guid(550cdd9b4c76ad645b99cd9eea1bb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx using Guid(550cdd9b4c76ad645b99cd9eea1bb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bc6747c383757d9624bd37bd20f3b9') in 0.027818 seconds
+  Import took 0.031386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx
+  artifactKey: Guid(032e9c3d6b8f7bd4281b52741574f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx using Guid(032e9c3d6b8f7bd4281b52741574f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479d9980fae33c256fb5450c17b3b7d5') in 0.073073 seconds
+  Import took 0.076557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx
+  artifactKey: Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx using Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fb7ca72e5ae6108e54a1d1e4ec719d') in 0.059205 seconds
+  Import took 0.063614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx
+  artifactKey: Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx using Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2764cf83b290b5016ef1cc0a4097c60') in 0.057342 seconds
+  Import took 0.061324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453951 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat using Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319e36da4ec6ce8a8ed545b779de1818') in 0.025074 seconds
+  Import took 0.028441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat
+  artifactKey: Guid(b3ad386aba28716448079dcf67d7aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat using Guid(b3ad386aba28716448079dcf67d7aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1368c16873812239e416b0c2daa6da84') in 0.032465 seconds
+  Import took 0.035442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/Stage.mat
+  artifactKey: Guid(19f8a934c4d1c2b47b1d094b83f39fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/Stage.mat using Guid(19f8a934c4d1c2b47b1d094b83f39fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a84f499baab116e947aac75b3de7e8') in 0.562696 seconds
+  Import took 0.565854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat
+  artifactKey: Guid(97f1fc767078c904184a5800339690a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat using Guid(97f1fc767078c904184a5800339690a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf93247fd8e18d2c563aec6fec315254') in 0.199904 seconds
+  Import took 0.203323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat
+  artifactKey: Guid(d357a802e5ef4d44d829d89dfb1a341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat using Guid(d357a802e5ef4d44d829d89dfb1a341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0406aee126135da34639666ab88f6a') in 0.030975 seconds
+  Import took 0.034382 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
