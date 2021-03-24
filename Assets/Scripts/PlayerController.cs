@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
 
     [Header("Config Player")]
-    [SerializeField] private float speed = 3.0f;
+    [SerializeField][Range(1.0f, 8.0f)] private float speed = 3.0f;
     private Vector3 direction;
     private bool isRun;
     #endregion
@@ -18,8 +18,9 @@ public class PlayerController : MonoBehaviour
         this.anim = GetComponent<Animator>();
     }
 
-    private void FixedUpdate() {
+    private void Update() {
         Movement();
+        Attack();
     }
     #endregion
 
@@ -43,6 +44,15 @@ public class PlayerController : MonoBehaviour
         this.controller.Move(this.direction * this.speed * Time.deltaTime);
 
         this.anim.SetBool("isRun", this.isRun);
+    }
+    #endregion
+
+    #region Attack
+    private void Attack(){
+        if (Input.GetButtonDown("Fire1"))
+        {
+            anim.SetTrigger("Attack");
+        }
     }
     #endregion
 }
